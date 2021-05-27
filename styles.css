@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.dark {
+ background-color: black;
+ color: blanchedalmond;
+}
+
+.dark div.box {
+  background-color: blanchedalmond;
+}
